@@ -41,6 +41,19 @@ html body{
 
 
 
+#html-container{
+    text-align: center;
+    z-index: 999999999;
+    padding-bottom: 10rem;
+}
+
+#html-container h1{
+    font-size: 50px;
+}
+
+
+
+
 
 
 
@@ -55,8 +68,6 @@ body {
   :after,
   :before {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
   }
   
   section {
@@ -69,13 +80,6 @@ body {
     background-color: #555;
   }
   
-  p{
-    color: white;
-    font-family: arial;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-  }
   
   .scroll-down {
     opacity: 1;
@@ -185,7 +189,7 @@ body {
     background: var(--extra);
     animation: animate 25s linear infinite;
     bottom: -200px;
-    z-index: 1;
+    z-index: 0;
     opacity: 0.1;
     
 }
