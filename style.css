@@ -46,12 +46,74 @@ html body {
 
 #html-container {
   text-align: center;
-  z-index: 2;
-  padding-bottom: 10rem;
+  z-index: 999999999;
+  position: relative;
+  background-color: var(--box);
+  padding: 3rem;
+  border-radius: 1rem;
+  margin-bottom: 20rem;
+
 }
 
 #html-container h1 {
-  font-size: 50px;
+  font-size:60px;
+}
+
+#html-container a {
+  color: var(--text);
+  font-size: 30px;
+}
+
+#html-container p{
+  font-size: 20px;
+}
+
+#css-container {
+  text-align: center;
+  z-index: 999999999;
+  position: relative;
+  background-color: var(--box);
+  padding: 3rem;
+  border-radius: 1rem;
+  margin-bottom: 20rem;
+
+}
+
+#css-container h1 {
+  font-size:60px;
+}
+
+#css-container a {
+  color: var(--text);
+  font-size: 30px;
+}
+
+#css-container p{
+  font-size: 20px;
+}
+
+#js-container {
+  text-align: center;
+  z-index: 999999999;
+  position: relative;
+  background-color: var(--box);
+  padding: 3rem;
+  border-radius: 1rem;
+  margin-bottom: 20rem;
+
+}
+
+#js-container h1 {
+  font-size:60px;
+}
+
+#js-container a {
+  color: var(--text);
+  font-size: 30px;
+}
+
+#js-container p{
+  font-size: 20px;
 }
 
 /*Knapp nedover*/
@@ -139,7 +201,7 @@ section.ok {
   top: 0;
   left: 0;
   width: 100%;
-  height: 200vh;
+  height: 400vh;
   overflow: hidden;
 }
 
@@ -158,13 +220,13 @@ section.ok {
 
 @keyframes animate {
   0% {
-    transform: translateY(200px) rotate(0deg);
+    transform: translateY(0px) rotate(0deg);
     opacity: 1;
     border-radius: 0;
   }
 
   100% {
-    transform: translateY(-250vh) rotate(720deg);
+    transform: translateY(-500vh) rotate(720deg);
     opacity: 0;
     border-radius: 30%;
   }

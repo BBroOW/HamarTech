@@ -37,3 +37,10 @@ function getRandomPercentage() {
   function getRandomHeight(){
     return Math.floor(Math.random() * 400) + "px";
   }
+
+
+function linkToElement() {
+  var target = document.getElementById('targetElement');
+  target.id = 'linkedElement';
+  location.href = '#linkedElement';
+}
